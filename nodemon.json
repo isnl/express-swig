@@ -1,0 +1,10 @@
+{
+  "watch": [
+    "server",
+    "src"
+  ],
+  "ext": "js json html",
+  "ignore": [
+    "src/assets/img/"
+  ]
+}
