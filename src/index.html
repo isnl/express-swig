@@ -8,5 +8,15 @@
   </head>
   <body>
     <h1>{{ content }}</h1>
+    {% set arr = [1,2,3,4,5]%}
+    <p>{{arr.length}}</p>
+    <ul>
+      {% for items in list%}
+      <li>
+        <p>姓名：{{ items.name }}</p>
+        <p>年龄：{{ items.age }}</p>
+      </li>
+      {% endfor %}
+    </ul>
   </body>
 </html>
