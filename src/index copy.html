@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/css/index.css" />
     <title>{{ title }}</title>
+    {% include "./layout/header.html" %}
   </head>
   <body>
     <h1>{{ content }}</h1>
     {% set arr = [1,2,3,4,5]%}
-    <p>{{arr.length}}</p>
     <ul>
       {% for items in list%}
       <li>
